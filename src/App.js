@@ -1,16 +1,19 @@
 import React from "react";
 import styled from "styled-components";
 import bgImg from "./assets/bg.png";
+import Main from "./components/Main";
+import Sidebar from "./components/Sidebar";
 
 const App = () => {
   return (
     <Container>
       <Wrapper>
-        <h1>test</h1>
+        <Sidebar />
+        <Main />
       </Wrapper>
     </Container>
   );
-}
+};
 
 const Container = styled.div`
   backgroud: #eefcff;
