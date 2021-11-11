@@ -4,8 +4,31 @@ import bgImg from "./assets/bg.png";
 
 const App = () => {
   return (
-    <h1>start</h1>
-  )
+    <Container>
+      <Wrapper>
+        <h1>test</h1>
+      </Wrapper>
+    </Container>
+  );
 }
+
+const Container = styled.div`
+  backgroud: #eefcff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+`;
+
+const Wrapper = styled.div`
+  background-image: url(${bgImg});
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+`;
 
 export default App;
