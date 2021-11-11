@@ -2,13 +2,14 @@ import React from "react";
 import styled from "styled-components";
 import bgImg from "./assets/bg.png";
 import Main from "./components/Main";
-import Sidebar from "./components/Sidebar";
+import SignupSidebar from "./components/SignupSidebar";
 
 const App = () => {
   return (
     <Container>
       <Wrapper>
-        <Sidebar />
+        {/* replace Signup with login component to see login screen */}
+        <SignupSidebar />
         <Main />
       </Wrapper>
     </Container>

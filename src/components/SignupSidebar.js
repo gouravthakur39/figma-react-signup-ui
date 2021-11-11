@@ -3,7 +3,7 @@ import styled from "styled-components";
 import logo from "../assets/logo.svg";
 import Input from "./Input";
 
-const Sidebar = () => {
+const SignupSidebar = () => {
   return (
     <Container>
       <LogoWrapper>
@@ -113,4 +113,4 @@ const Container = styled.div`
   }
 `;
 
-export default Sidebar;
+export default SignupSidebar;
